@@ -1,0 +1,7 @@
+!.storybook
+tmp
+dist
+public
+static
+docs
+CHANGELOG.md

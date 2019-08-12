@@ -1,0 +1,25 @@
+{
+  "files.eol": "\n",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#ddd",
+      "backgroundColor": "green"
+    }
+  ],
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

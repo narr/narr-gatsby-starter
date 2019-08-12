@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "project-root/*": ["./*"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": [
+    "./node_modules/@testing-library/jest-dom/extend-expect.d.ts",
+    "./@types/**/*.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
+}
